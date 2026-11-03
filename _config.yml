@@ -6,6 +6,9 @@ baseurl: ""
 
 markdown: kramdown
 
+timezone: Asia/Tokyo
+future: true
+
 collections:
   music:
     output: true
