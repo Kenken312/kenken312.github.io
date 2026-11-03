@@ -1,5 +1,5 @@
 ---
-title: "hyper"
+title: "Hyper"
 artist: "kroi"
 date: 2026-11-03
 ---
