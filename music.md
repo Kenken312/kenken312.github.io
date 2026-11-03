@@ -9,6 +9,7 @@ permalink: /music/
 登録されている曲数：{{ site.music.size }}
 
 <ul>
+{% assign items = site.music | sort_natural: "title" %}
 {% for item in site.music %}
   <li>
     <a href="{{ item.url | relative_url }}">
