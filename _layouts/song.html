@@ -1,17 +1,12 @@
-
 ---
 layout: default
 ---
 
 <h2>{{ page.title | escape }}</h2>
 
-<p>
-  Artist: {{ page.artist | escape }}
-</p>
+<p>{{ page.artist | escape }}</p>
 
-<div class="song-review">
-  {{ content }}
-</div>
+{{ content }}
 
 <p>
   <a href="{{ '/music/' | relative_url }}">
