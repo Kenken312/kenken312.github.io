@@ -1,0 +1,8 @@
+
+title: "My Homepage"
+description: "Personal website"
+
+url: "https://YOURNAME.github.io"
+baseurl: ""
+
+markdown: kramdown
