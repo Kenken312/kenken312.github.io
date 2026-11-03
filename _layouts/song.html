@@ -1,0 +1,20 @@
+
+---
+layout: default
+---
+
+<h2>{{ page.title | escape }}</h2>
+
+<p>
+  Artist: {{ page.artist | escape }}
+</p>
+
+<div class="song-review">
+  {{ content }}
+</div>
+
+<p>
+  <a href="{{ '/music/' | relative_url }}">
+    ← Music に戻る
+  </a>
+</p>
