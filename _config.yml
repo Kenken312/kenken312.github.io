@@ -5,3 +5,15 @@ url: "https://kenken312.github.io"
 baseurl: ""
 
 markdown: kramdown
+
+collections:
+  music:
+    output: true
+    permalink: /music/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: music
+    values:
+      layout: music
