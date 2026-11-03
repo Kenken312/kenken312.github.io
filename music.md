@@ -6,15 +6,16 @@ permalink: /music/
 
 ## Music
 
-登録されている曲数：{{ site.music.size }}
+曲数：{{ site.music.size }}
 
 <ul>
 {% assign items = site.music | sort_natural: "title" %}
-{% for item in site.music %}
+{% for item in items %}
   <li>
     <a href="{{ item.url | relative_url }}">
       {{ item.title | escape }}
     </a>
+    — {{ item.artist | escape }}
   </li>
 {% endfor %}
 </ul>
